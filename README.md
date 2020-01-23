@@ -6,17 +6,23 @@ All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 
 # Features
 
-- Automatic decompression of logs
+- Currently handles the following logs and payload XMLs if available:
+  - HTTPAccess
+  - Cron
+  - Bash
+  - Notice
+  - Sh
+- Decompression of logs
 - Parsing of logs into pandas dataframes for further analysis if desired
-- Searching of common IOCs associated with compromise
-- Automatic parsing and decoding of XML payload files if available
+- Searching of logs for common IOCs associated with compromise
+- Parsing and decoding of XML payload files if available
 - Output of analysis to excel results sheet for review
 
 # Changelog
 
 ## v 0.8
-* added 'latin1' encoding to all log parsing to account for instances where logs where not in utf-8 and caused parsing errors
-* split searchFor into searchFor and shSearchFor as sh logs have different criteria to search that doesn't show up in other logs (helps efficiency)
+* added 'latin1' encoding to all log parsing to account for instances where logs were not in utf-8 and caused parsing errors
+* split searchFor into searchFor and shSearchFor as sh logs have different criteria to search that doesn't show up in other logs
 
 ## v 0.7
 * added payload decoding (chr() and base64) + aggregation of all payloads into 'decodedpayloads' column
@@ -31,4 +37,3 @@ All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 
 ## v 0.4
 * added bash log parsing
-* added 'haveTemplateDir' bool to config to allow running of the notebook even if not in possession of the /Templates dir from the netscaler host
