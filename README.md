@@ -20,6 +20,10 @@ All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 
 # Changelog
 
+## v 0.9
+* added retrieval of start and end date covered by each log listed above
+* refactored xml parsing code slightly to incorporate 'username' key allowing parsing of xmls retrieved from /xml/bookmarks
+
 ## v 0.8
 * added 'latin1' encoding to all log parsing to account for instances where logs were not in utf-8 and caused parsing errors
 * split searchFor into searchFor and shSearchFor as sh logs have different criteria to search that doesn't show up in other logs
