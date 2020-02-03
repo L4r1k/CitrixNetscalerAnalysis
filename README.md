@@ -22,9 +22,9 @@ All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 
 - [Citrix Final Patches](https://www.citrix.com/blogs/2020/01/24/citrix-releases-final-fixes-for-cve-2019-19781/)
 - [FireEye IOC Script](https://www.citrix.com/news/announcements/jan-2020/citrix-and-fireeye-mandiant-launch-indicator-of-compromise-scann.html)
-- [Great CVE-2019-19781 Notes](https://github.com/x1sec/CVE-2019-19781/blob/master/CVE-2019-19781-DFIR.md)
+- [x1sec Great CVE-2019-19781 Notes](https://github.com/x1sec/CVE-2019-19781/blob/master/CVE-2019-19781-DFIR.md)
 - [Overview of Observed Payloads](https://isc.sans.edu/diary/Citrix+ADC+Exploits%3A+Overview+of+Observed+Payloads/25704)
-- [NOTROBIN Writeup](https://www.fireeye.com/blog/threat-research/2020/01/vigilante-deploying-mitigation-for-citrix-netscaler-vulnerability-while-maintaining-backdoor.html)
+- [FireEye NOTROBIN Writeup](https://www.fireeye.com/blog/threat-research/2020/01/vigilante-deploying-mitigation-for-citrix-netscaler-vulnerability-while-maintaining-backdoor.html)
 - [TrustedSec Forensics Guide](https://www.trustedsec.com/blog/netscaler-remote-code-execution-forensics/)
 - [TrustedSec Honeypot Writeup](https://www.trustedsec.com/blog/netscaler-honeypot/)
 - [US-Cert Writeup](https://www.us-cert.gov/ncas/alerts/aa20-031a)
