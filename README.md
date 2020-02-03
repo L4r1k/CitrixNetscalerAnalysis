@@ -33,27 +33,28 @@ All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 # Changelog
 
 ## v 1.0
-* added httperror log parsing
-* notice analysis now searches for same terms as sh analysis (sh are included in notice and thus we must search the same terms in both for the same results)
+* Added httperror log parsing
+* Notice analysis now searches for same terms as sh analysis (sh are included in notice and thus we must search the same terms in both for the same results)
+* Dataframes will now no longer be exported to the results sheet if they are empty. Instead a log message will display which dataframes are empty in the excel writing cell of the notebook.
 
 ## v 0.9
-* added retrieval of start and end date covered by each log listed above
-* refactored xml parsing code slightly to incorporate 'username' key allowing parsing of xmls retrieved from /xml/bookmarks
+* Added retrieval of start and end date covered by each log listed above
+* Refactored xml parsing code slightly to incorporate 'username' key allowing parsing of xmls retrieved from /xml/bookmarks
 
 ## v 0.8
-* added 'latin1' encoding to all log parsing to account for instances where logs were not in utf-8 and caused parsing errors
-* split searchFor into searchFor and shSearchFor as sh logs have different criteria to search that doesn't show up in other logs
+* Added 'latin1' encoding to all log parsing to account for instances where logs were not in utf-8 and caused parsing errors
+* Split searchFor into searchFor and shSearchFor as sh logs have different criteria to search that doesn't show up in other logs
 
 ## v 0.7
-* added payload decoding (chr() and base64) + aggregation of all payloads into 'decodedpayloads' column
+* Added payload decoding (chr() and base64) + aggregation of all payloads into 'decodedpayloads' column
 
 ## v 0.6
-* added sh log parsing
-* added common 'searchFor' var to config to hold search terms for suspicious activity that will be searched for in every log
+* Added sh log parsing
+* Added common 'searchFor' var to config to hold search terms for suspicious activity that will be searched for in every log
 
 ## v 0.5
-* added parsing for the majority of notice logs (see errors for exceptions)
-    * exceptions are currently: sslvpn_aaad_login_handler and Session setup data send logs although they print via errors so you can still inspect them
+* Added parsing for the majority of notice logs (see errors for exceptions)
+    * Exceptions are currently: sslvpn_aaad_login_handler and Session setup data send logs although they print via errors so you can still inspect them
 
 ## v 0.4
-* added bash log parsing
+* Added bash log parsing
