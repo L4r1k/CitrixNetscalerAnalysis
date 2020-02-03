@@ -2,6 +2,8 @@
 
 A jupyter notebook to aid in automating some of the forensic analysis related to Citrix Netscaler hosts compromised via CVE-2019-19781.
 
+For help retrieving artifacts to examine see [this Citrix triage script.](https://github.com/L4r1k/CitrixNetscalerTriageScript)
+
 All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 
 **Disclaimer: Not intended to be a be-all end-all solution, just there to help you get started.**
