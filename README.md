@@ -8,6 +8,7 @@ All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 
 - Currently handles the following logs and payload XMLs if available:
   - HTTPAccess
+  - HTTPError
   - Cron
   - Bash
   - Notice
@@ -30,6 +31,10 @@ All notes/suggestions are welcome. Feel free to submit pull requests or issues.
 - [US-Cert Writeup](https://www.us-cert.gov/ncas/alerts/aa20-031a)
 
 # Changelog
+
+## v 1.0
+* added httperror log parsing
+* notice analysis now searches for same terms as sh analysis (sh are included in notice and thus we must search the same terms in both for the same results)
 
 ## v 0.9
 * added retrieval of start and end date covered by each log listed above
