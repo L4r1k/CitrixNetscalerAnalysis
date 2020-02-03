@@ -1,8 +1,10 @@
 # [WIP] Citrix Analysis Notebook
 
-A jupyter notebook to aid in automating some of the forensic analysis related to Citrix Netscaler hosts compromised via CVE-2019-19781. Not a be-all end-all solution, just there to help you get started.
+A jupyter notebook to aid in automating some of the forensic analysis related to Citrix Netscaler hosts compromised via CVE-2019-19781.
 
 All notes/suggestions are welcome. Feel free to submit pull requests or issues.
+
+**Disclaimer: Not intended to be a be-all end-all solution, just there to help you get started.**
 
 # Features
 
